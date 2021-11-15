@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8350B22742F49E00174216 /* Bookstore_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350B12742F49E00174216 /* Bookstore_iOSApp.swift */; };
+		CD8350B42742F49E00174216 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350B32742F49E00174216 /* ContentView.swift */; };
+		CD8350B62742F49F00174216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8350B52742F49F00174216 /* Assets.xcassets */; };
+		CD8350B92742F49F00174216 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8350B82742F49F00174216 /* Preview Assets.xcassets */; };
+		CD8350BB2742F49F00174216 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350BA2742F49F00174216 /* Persistence.swift */; };
+		CD8350BE2742F49F00174216 /* Bookstore_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD8350BC2742F49F00174216 /* Bookstore_iOS.xcdatamodeld */; };
+		CD8350C82742F4A000174216 /* Bookstore_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350C72742F4A000174216 /* Bookstore_iOSTests.swift */; };
+		CD8350D22742F4A000174216 /* Bookstore_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350D12742F4A000174216 /* Bookstore_iOSUITests.swift */; };
+		CD8350D42742F4A000174216 /* Bookstore_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8350D32742F4A000174216 /* Bookstore_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8350C42742F4A000174216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8350A62742F49E00174216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8350AD2742F49E00174216;
+			remoteInfo = "Bookstore-iOS";
+		};
+		CD8350CE2742F4A000174216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8350A62742F49E00174216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8350AD2742F49E00174216;
+			remoteInfo = "Bookstore-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8350AE2742F49E00174216 /* Bookstore-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bookstore-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8350B12742F49E00174216 /* Bookstore_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookstore_iOSApp.swift; sourceTree = "<group>"; };
+		CD8350B32742F49E00174216 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD8350B52742F49F00174216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8350B82742F49F00174216 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD8350BA2742F49F00174216 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		CD8350BD2742F49F00174216 /* Bookstore_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookstore_iOS.xcdatamodel; sourceTree = "<group>"; };
+		CD8350C32742F4A000174216 /* Bookstore-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bookstore-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8350C72742F4A000174216 /* Bookstore_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookstore_iOSTests.swift; sourceTree = "<group>"; };
+		CD8350CD2742F4A000174216 /* Bookstore-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bookstore-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8350D12742F4A000174216 /* Bookstore_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookstore_iOSUITests.swift; sourceTree = "<group>"; };
+		CD8350D32742F4A000174216 /* Bookstore_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookstore_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8350AB2742F49E00174216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350C02742F4A000174216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350CA2742F4A000174216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8350A52742F49E00174216 = {
+			isa = PBXGroup;
+			children = (
+				CD8350B02742F49E00174216 /* Bookstore-iOS */,
+				CD8350C62742F4A000174216 /* Bookstore-iOSTests */,
+				CD8350D02742F4A000174216 /* Bookstore-iOSUITests */,
+				CD8350AF2742F49E00174216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8350AF2742F49E00174216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8350AE2742F49E00174216 /* Bookstore-iOS.app */,
+				CD8350C32742F4A000174216 /* Bookstore-iOSTests.xctest */,
+				CD8350CD2742F4A000174216 /* Bookstore-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8350B02742F49E00174216 /* Bookstore-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD8350B12742F49E00174216 /* Bookstore_iOSApp.swift */,
+				CD8350B32742F49E00174216 /* ContentView.swift */,
+				CD8350B52742F49F00174216 /* Assets.xcassets */,
+				CD8350BA2742F49F00174216 /* Persistence.swift */,
+				CD8350BC2742F49F00174216 /* Bookstore_iOS.xcdatamodeld */,
+				CD8350B72742F49F00174216 /* Preview Content */,
+			);
+			path = "Bookstore-iOS";
+			sourceTree = "<group>";
+		};
+		CD8350B72742F49F00174216 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD8350B82742F49F00174216 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD8350C62742F4A000174216 /* Bookstore-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8350C72742F4A000174216 /* Bookstore_iOSTests.swift */,
+			);
+			path = "Bookstore-iOSTests";
+			sourceTree = "<group>";
+		};
+		CD8350D02742F4A000174216 /* Bookstore-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8350D12742F4A000174216 /* Bookstore_iOSUITests.swift */,
+				CD8350D32742F4A000174216 /* Bookstore_iOSUITestsLaunchTests.swift */,
+			);
+			path = "Bookstore-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8350AD2742F49E00174216 /* Bookstore-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8350D72742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOS" */;
+			buildPhases = (
+				CD8350AA2742F49E00174216 /* Sources */,
+				CD8350AB2742F49E00174216 /* Frameworks */,
+				CD8350AC2742F49E00174216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bookstore-iOS";
+			productName = "Bookstore-iOS";
+			productReference = CD8350AE2742F49E00174216 /* Bookstore-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8350C22742F4A000174216 /* Bookstore-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8350DA2742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOSTests" */;
+			buildPhases = (
+				CD8350BF2742F4A000174216 /* Sources */,
+				CD8350C02742F4A000174216 /* Frameworks */,
+				CD8350C12742F4A000174216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8350C52742F4A000174216 /* PBXTargetDependency */,
+			);
+			name = "Bookstore-iOSTests";
+			productName = "Bookstore-iOSTests";
+			productReference = CD8350C32742F4A000174216 /* Bookstore-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8350CC2742F4A000174216 /* Bookstore-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8350DD2742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOSUITests" */;
+			buildPhases = (
+				CD8350C92742F4A000174216 /* Sources */,
+				CD8350CA2742F4A000174216 /* Frameworks */,
+				CD8350CB2742F4A000174216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8350CF2742F4A000174216 /* PBXTargetDependency */,
+			);
+			name = "Bookstore-iOSUITests";
+			productName = "Bookstore-iOSUITests";
+			productReference = CD8350CD2742F4A000174216 /* Bookstore-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8350A62742F49E00174216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CD8350AD2742F49E00174216 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CD8350C22742F4A000174216 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CD8350AD2742F49E00174216;
+					};
+					CD8350CC2742F4A000174216 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CD8350AD2742F49E00174216;
+					};
+				};
+			};
+			buildConfigurationList = CD8350A92742F49E00174216 /* Build configuration list for PBXProject "Bookstore-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8350A52742F49E00174216;
+			productRefGroup = CD8350AF2742F49E00174216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8350AD2742F49E00174216 /* Bookstore-iOS */,
+				CD8350C22742F4A000174216 /* Bookstore-iOSTests */,
+				CD8350CC2742F4A000174216 /* Bookstore-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8350AC2742F49E00174216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8350B92742F49F00174216 /* Preview Assets.xcassets in Resources */,
+				CD8350B62742F49F00174216 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350C12742F4A000174216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350CB2742F4A000174216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8350AA2742F49E00174216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8350BE2742F49F00174216 /* Bookstore_iOS.xcdatamodeld in Sources */,
+				CD8350BB2742F49F00174216 /* Persistence.swift in Sources */,
+				CD8350B42742F49E00174216 /* ContentView.swift in Sources */,
+				CD8350B22742F49E00174216 /* Bookstore_iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350BF2742F4A000174216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8350C82742F4A000174216 /* Bookstore_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8350C92742F4A000174216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8350D22742F4A000174216 /* Bookstore_iOSUITests.swift in Sources */,
+				CD8350D42742F4A000174216 /* Bookstore_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8350C52742F4A000174216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8350AD2742F49E00174216 /* Bookstore-iOS */;
+			targetProxy = CD8350C42742F4A000174216 /* PBXContainerItemProxy */;
+		};
+		CD8350CF2742F4A000174216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8350AD2742F49E00174216 /* Bookstore-iOS */;
+			targetProxy = CD8350CE2742F4A000174216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD8350D52742F4A000174216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8350D62742F4A000174216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8350D82742F4A000174216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookstore-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8350D92742F4A000174216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bookstore-iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD8350DB2742F4A000174216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookstore-iOS.app/Bookstore-iOS";
+			};
+			name = Debug;
+		};
+		CD8350DC2742F4A000174216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bookstore-iOS.app/Bookstore-iOS";
+			};
+			name = Release;
+		};
+		CD8350DE2742F4A000174216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bookstore-iOS";
+			};
+			name = Debug;
+		};
+		CD8350DF2742F4A000174216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m.Bookstore-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bookstore-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8350A92742F49E00174216 /* Build configuration list for PBXProject "Bookstore-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8350D52742F4A000174216 /* Debug */,
+				CD8350D62742F4A000174216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8350D72742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8350D82742F4A000174216 /* Debug */,
+				CD8350D92742F4A000174216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8350DA2742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8350DB2742F4A000174216 /* Debug */,
+				CD8350DC2742F4A000174216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8350DD2742F4A000174216 /* Build configuration list for PBXNativeTarget "Bookstore-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8350DE2742F4A000174216 /* Debug */,
+				CD8350DF2742F4A000174216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD8350BC2742F49F00174216 /* Bookstore_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD8350BD2742F49F00174216 /* Bookstore_iOS.xcdatamodel */,
+			);
+			currentVersion = CD8350BD2742F49F00174216 /* Bookstore_iOS.xcdatamodel */;
+			path = Bookstore_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD8350A62742F49E00174216 /* Project object */;
+}
